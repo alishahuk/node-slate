@@ -9,8 +9,8 @@ toc_footers:
   - <a href='#'>Sign Up for a Developer Key</a>
   - <a href='#'>The Asylumn Customers Api</a>
 includes:
-  - main
   - introduction
+  - authentication
   - _errors
 
 search: true
