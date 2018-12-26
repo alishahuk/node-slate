@@ -4,7 +4,8 @@
   "description": "Node port of tripit/slate",
   "main": "index.js",
   "scripts": {
-    "start": "gulp serve",
+    "clean": "del-cli build",
+    "start": "npm run clean && gulp serve",
     "build": "gulp",
     "deploy": "./deploy.sh"
   },
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/sdelements/node-slate#readme",
   "devDependencies": {
     "del": "^3.0.0",
+    "del-cli": "^1.1.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.7.0",
     "gulp-cli": "^1.2.1",

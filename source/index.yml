@@ -1,17 +1,16 @@
-title: API Reference
+title: Customers API Reference
 
 language_tabs:
   - bash
-  - ruby
-  - python
-  - javascript
+  - php
+  - http
 
 toc_footers:
   - <a href='#'>Sign Up for a Developer Key</a>
-  - <a href='https://github.com/tripit/slate'>Documentation Powered by Slate</a>
-
+  - <a href='#'>The Asylumn Customers Api</a>
 includes:
   - main
+  - introduction
   - _errors
 
 search: true
